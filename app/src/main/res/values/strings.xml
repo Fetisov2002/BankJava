@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My ApplicationSber</string>
+    <string name="popolnite">Пополнить</string>
+    <string name="numberCard">333.333.333</string>
+    <string name="title_activity_main3">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="Внести">Внести</string>
+    <string name="пополнение">Внесите сумму пополнения</string>
+    <string name="CardNumber">4516 8343 0055 6734</string>
+    <string name="activity_with_home">Back</string>
+    <string name="suma">55</string>
+    <string name="money">0</string>
+    <string name="name1">Рыжик</string>
+    <string name="PIN">07102</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+</resources>
+

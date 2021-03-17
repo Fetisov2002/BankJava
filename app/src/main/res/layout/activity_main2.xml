@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/pup"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="30dp"
+            android:text="Номер карты"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="40dp"
+            android:text="Баланс"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/numberCard"
+            android:layout_width="185dp"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:padding="7dp"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+
+        <TextView
+            android:id="@+id/balance"
+            android:layout_width="118dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:inputType="number"
+            android:padding="7dp"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="110dp">
+
+        <TextView
+            android:id="@+id/UserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColor="@color/black">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+         android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/number1"
+            android:layout_width="250dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/number2"
+            android:layout_width="250dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/number3"
+            android:layout_width="250dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/number4"
+            android:layout_width="250dp"
+            android:layout_height="30dp"/>
+        <TextView
+            android:id="@+id/number5"
+            android:layout_width="250dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/number6"
+            android:layout_width="250dp"
+            android:layout_height="30dp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:id="@+id/button_pop"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="108dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:backgroundTint="#EB3306F8"
+            android:text="Пополнить" />
+
+
+        <Button
+            android:id="@+id/button_op"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#EB3306F8"
+            android:text="Оплата " />
+
+
+        <Button
+            android:id="@+id/button_pr"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:backgroundTint="#EB3306F8"
+            android:text="Перевод" />
+    </LinearLayout>
+
+</LinearLayout>
